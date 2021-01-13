@@ -1,4 +1,4 @@
-
+"""
 #  001 Crie um programa que escreva "Olá. Mundo!" na tela.
 
 print('Olá, Mundo!')
@@ -574,3 +574,4 @@ elif n1 == 3 and usuario == 1:   # Tesoura vs Pedra
 elif n1 == 3 and usuario == 2:   # Tesoura vs papel
     print('\033[30m Você perdeu!!')
 
+"""
