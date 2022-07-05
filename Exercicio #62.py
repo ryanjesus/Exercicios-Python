@@ -5,23 +5,19 @@ quer mostrar O termos
 """
 
 
-termo = int(input("Digite o primeir termo: "))
+primeiro = int(input("Digite o primeir termo: "))
 razao = int(input("Digite a razão: "))
+termo = primeiro
+cont = 1
+total = 0
+mais = 10
 
-c = 0
-f = 0
-n = 0
-
-while c != 10:
-    termo -= razao
-    c += 1
-    print(termo, end=' ')
-    if c == 10:
-        n = int(input('\nQuer mostrar mais quantos termos? '))
-        if n != 0:
-            while f != n:
-                termo -= razao
-                f += 1
-                print(termo, end=' ')
-        else:
-            print('Saindo do programa')
+while mais != 0:
+    total += mais
+    while cont <= total:
+        print(f'{termo} ', end=' ')
+        termo += razao
+        cont += 1
+    print('Pausa')
+    mais = int(input('Quantos termos você quer mostrar a mais? '))
+print('Fim')
