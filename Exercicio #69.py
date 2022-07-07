@@ -10,9 +10,8 @@ c) Quantas mulheres tem menos de 20 anos
 """
 
 
-contidade = 0
-contisexom = 0
-contisexof = 0
+contidade = contisexom = contisexof = 0
+
 
 while True:
     print('-=-' * 20)
