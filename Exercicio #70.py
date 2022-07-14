@@ -10,24 +10,27 @@ c) Qual é o nome do produto mais barato.
 print('-'*20)
 print('LOJA SUPER BARATÃO')
 print('-'*20)
-
-totalcompra = mais = 0
+menorvalor = 99999
+valortotal = mais = 0
 carrinnho = []
 while True:
     produto = str(input('Nome do produto: '))
     preco = int(input('Preço: R$ '))
     carrinnho += [produto]
-    totalcompra += totalcompra
-    print(f'Cainho: {carrinnho}')
+    valortotal += preco
+    print(f'Carrinho: {carrinnho}')
     if preco > 1000:
         mais += 1
     questao = ' '
+    if preco < menorvalor:
+        menorvalor = preco
+        item = produto
     while questao not in 'SsNn':
         print('-'*20)
         questao = str(input('Quer continua? [S/N] ')).strip().upper()[0]
     if questao == 'N':
         print('Saindo do programa')
         break
-print(f'Valor total: {totalcompra} ')
-print(f'{mais} custam mais de R$1000')
-print(f'O produto mais barato é {min(carrinnho)}')
+print(f'Valor total: {valortotal} ')
+print(f'{mais} item custam mais de R$1000')
+print(f'O produto mais barato é {item} e custa {menorvalor}')
