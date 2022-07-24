@@ -13,6 +13,7 @@ print('-'*20)
 menorvalor = 99999
 valortotal = mais = 0
 carrinnho = []
+item = ''
 while True:
     produto = str(input('Nome do produto: '))
     preco = int(input('Preço: R$ '))
@@ -33,4 +34,4 @@ while True:
         break
 print(f'Valor total: {valortotal} ')
 print(f'{mais} item custam mais de R$1000')
-print(f'O produto mais barato é {item} e custa {menorvalor}')
+print(f'O produto mais barato é o {item} que custa {menorvalor}')
