@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../TesteSMSS/.idea/AnaliseBonusViagem.iml" filepath="$PROJECT_DIR$/../TesteSMSS/.idea/AnaliseBonusViagem.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/exercicios_1_a_40.iml" filepath="$PROJECT_DIR$/.idea/exercicios_1_a_40.iml" />
     </modules>
   </component>
