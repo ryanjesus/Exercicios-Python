@@ -5,14 +5,15 @@ em uma lista única que mantenha separados os valores pares e impares.
 No final, mostre os valores pares e impares em ordem crescente
 """
 
-par = list()
-impar = list()
+num = [[], []]
+n = 0
 
 for c in range(0, 7):
     n = int(input(f'Digite o {c + 1}º valor: '))
     if n % 2 == 0:
-        par.append(n)
+        num[0].append(n)
     else:
-        impar.append(n)
-print(f'Lista de numero pares {sorted(par)}')
-print(f'Lista de numeros impares {sorted(impar)}')
+        num[1].append(n)
+print(f'Lista de numero pares {num[0].sort()}')
+print(f'Lista de numeros impares {num[1].sort()}')
+
