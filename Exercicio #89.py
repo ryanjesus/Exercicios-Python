@@ -14,7 +14,6 @@ while True:
 
     print(f'Id do aluno: {n}')
     temp.append(str(input('Digite o primeiro nome do aluno: ')))
-    # temp.append(str(input('Digite o sobrenome do aluno: ')))
     temp.append(float(input('Digite a primeira nota: ')))
     temp.append(float(input('Digite a segunda nota: ')))
 
