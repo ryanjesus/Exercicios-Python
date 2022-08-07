@@ -1,6 +1,7 @@
 # Exercicios Python
 O objetivo é finalizar todos os exercicios do Curso em video
 
+- Status: *Em andamento*
 ## Lista de exercicios
 
 - Do exercicio 01 até 35 - Fundamentos <br />
