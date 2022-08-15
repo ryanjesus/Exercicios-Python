@@ -8,7 +8,7 @@ a) De 1 até 10, de 1 em 1
 a) De 10 até 0, de 2 em 2
 c) uma contagem personalizada
 """
-
+from time import sleep
 qtd = 0
 
 
@@ -16,10 +16,12 @@ def contagem(a, b, c):
     if qtd == 1:
         for cont in reversed(range(a, b, c)):
             print(cont, end=' ')
+            sleep(0.5)
         print()
     else:
         for cont in range(a, b, c):
             print(cont, end=' ')
+            sleep(0.5)
         print()
 
 

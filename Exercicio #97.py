@@ -4,18 +4,11 @@ que receba um texto qualquer com parâmetro e mostre
 uma mensagem com tamanho adaptável
 """
 
-def escreva():
-    print('~'*len(a))
+def escreva(msg):
+    tamanho = len(msg) + 4
+    print('~' * tamanho)
+    print(f'  {msg}')
+    print('~' * tamanho)
 
 
-a = ('Curso de python')
-
-escreva()
-print(a)
-escreva()
-
-a = ('Ryan Jesus')
-
-escreva()
-print(a)
-escreva()
+escreva('Oi')
