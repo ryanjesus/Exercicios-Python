@@ -7,11 +7,23 @@ mostrar a soma entre todos os valores PARES sorteados pela função anterior
 numeros = list()
 from random import randint
 
-def sorteia():
-    for c in range(0, 6):
-        randint(0, 100)
+def sorteia(lista):
+    print('Sorteando 5 valores da lista: ', end='')
+    for c in range(0, 5):
+        n = randint(1, 10)
+        lista.append(n)
+        print(f' {n} ', end='')
+    print()
 
 
 
-numeros.append(sorteia())
-print(numeros)
+def somarPar(lista):
+    soma = 0
+    for valor in lista:
+        if valor % 2 == 0:
+            soma += valor
+    print(f'Somando os valores pares de {lista}, temos {soma}')
+
+
+sorteia(numeros)
+somarPar(numeros)
