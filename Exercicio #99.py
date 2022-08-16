@@ -23,4 +23,4 @@ while True:
     if res in 'Nn':
         break
 
-print(f'O maior valor é {numeros} e foram informados {qtd}')
+print(f'O maior valor é {maior(numeros)} e foram informados {qtd}')
