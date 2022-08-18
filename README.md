@@ -1,12 +1,12 @@
 # Exercicios Python
 O objetivo é finalizar todos os exercicios do Curso em video
 
-- Status: *Em andamento*
+- Status: *Finalizado*
 ## Lista de exercicios
 
 - Do exercicio 01 até 35 - Fundamentos <br />
 - Do exercicio 36 até 71 - Estruturas de controle <br />
-- Do exercicio 72 até 114 - Estruturas Composta
+- Do exercicio 72 até 115 - Estruturas Composta
 
 
 ## Downloads
